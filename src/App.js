@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-
+import EngineeringTopics from "./EngineeringTopics";
 
 function App() {
   const currentYear = new Date().getFullYear();
@@ -25,7 +25,7 @@ delivering quality experiences."
         description="feel free to reach out to us via
 email or phone."
       />
-
+      <EngineeringTopics />
     </div>
   );
 }
