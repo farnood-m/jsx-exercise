@@ -1,4 +1,7 @@
 import "./App.css";
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
 
 
 function App() {
@@ -11,6 +14,18 @@ function App() {
       <p>React Components</p>
       <p>Current Year : {currentYear}</p>
       <p>{isLoggedIn ? `Welcome back!` : `Please log in.`}</p>
+      <Home title="Home Page" description="Welcome to our website." />
+      <About
+        title="About Us"
+        description="we are passionate about
+delivering quality experiences."
+      />
+      <Contact
+        title="Contact Us"
+        description="feel free to reach out to us via
+email or phone."
+      />
+
     </div>
   );
 }
